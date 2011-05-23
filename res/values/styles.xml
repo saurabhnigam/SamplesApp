@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="iWindowTitleBackground" parent="android:WindowTitleBackground">    
+        <item name="android:background">@drawable/dot_slash_header</item> 
+        <item name="android:textAppearance">@style/CustomDefaultTextAppearance</item>   
+    </style>
+    
+      <style name="CustomDefaultTextAppearance" parent="@android:style/TextAppearance.WindowTitle">
+            <item name="android:textSize">14dip</item>
+            <item name="android:textColor">#FFFFFF</item>
+            <item name="android:layout_gravity">center</item>
+            <item name="android:textStyle">bold</item>
+    </style>
+</resources>
