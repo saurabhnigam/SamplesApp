@@ -18,8 +18,10 @@
 	<activity android:name=".dynamicTheme.DynamicTheming"
 				android:theme="@android:style/Theme.Dialog"/>
 				
-	<activity android:name=".floatingButton.FloatingViewApp"/>
-	<activity android:name=".floatingButton.FloatingButton"/>
+	<activity android:name=".floatingButton.FloatingViewApp"
+				android:theme="@style/TitleTheme"/>
+	<activity android:name=".floatingButton.FloatingButton"
+				android:theme="@style/TitleTheme"/>
 	
 	        <receiver android:name =".intentReciever.RecieverInstall">
             <intent-filter>
