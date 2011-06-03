@@ -23,6 +23,8 @@
 	 android:layout_height="wrap_content"
 	android:layout_width="fill_parent"
 	android:persistentDrawingCache="animation|scrolling"
+	android:background="@drawable/dot_slash_bg"
+	android:cacheColorHint="#00000000"
 	>
 	</ListView>
 	

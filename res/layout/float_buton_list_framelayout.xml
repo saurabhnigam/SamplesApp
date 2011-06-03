@@ -9,7 +9,9 @@
  
     <ListView android:id="@android:id/list" 
           android:layout_width="fill_parent" 
-          android:layout_height="fill_parent"/> 
+          android:layout_height="fill_parent"
+          android:background="@drawable/dot_slash_bg"
+		  android:cacheColorHint="#00000000"/> 
     <TextView android:id="@android:id/empty" 
           android:layout_width="fill_parent" 
           android:layout_height="fill_parent" 

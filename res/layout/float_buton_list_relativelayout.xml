@@ -8,6 +8,8 @@
 		android:id="@android:id/android:list"
 		android:layout_width="fill_parent"
 		android:layout_height="wrap_content"
+		android:background="@drawable/dot_slash_bg"
+		android:cacheColorHint="#00000000"
 		/>
 	<Button
 		android:id="@+id/floating_button"
