@@ -17,6 +17,9 @@
 
 	<activity android:name=".dynamicTheme.DynamicTheming"
 				android:theme="@android:style/Theme.Dialog"/>
+				
+	<activity android:name=".floatingButton.FloatingViewApp"/>
+	<activity android:name=".floatingButton.FloatingButton"/>
 	
 	        <receiver android:name =".intentReciever.RecieverInstall">
             <intent-filter>
